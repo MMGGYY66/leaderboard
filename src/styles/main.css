@@ -1,7 +1,41 @@
 body {
   background: #000;
   color: rgb(235, 228, 228);
-  height: 100%;
-  width: 100%;
-  font-size: 1.1rem;
+}
+
+.content {
+  width: 80%;
+}
+
+.left {
+  background-color: yellow;
+  color: black;
+}
+
+.right {
+  background-color: orange;
+  color: black;
+}
+
+.recent {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+}
+
+.scores-row {
+  border: 4px solid black;
+  margin: 24px 0;
+  padding: 16px 12px;
+}
+
+.scores {
+  justify-content: start;
+}
+
+.scores p {
+  font-size: 20px;
+  font-weight: 600;
 }
