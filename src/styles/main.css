@@ -8,6 +8,7 @@ body {
   width: 160px;
   color: #000;
 }
+
 .content {
   width: 75%;
 }
@@ -68,6 +69,10 @@ body {
   color: white;
 }
 
+footer p {
+  padding: 10px;
+}
+
 .scores p {
   font-size: 18px;
   font-weight: 600;
@@ -105,10 +110,6 @@ footer {
 footer a {
   text-decoration: none;
   color: gray;
-}
-
-footer p {
-    padding: 10px;
 }
 
 footer img {
