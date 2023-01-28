@@ -3,6 +3,11 @@ body {
   color: #fff;
 }
 
+.header-icon {
+  background-color: #000;
+  width: 160px;
+  color: #000;
+}
 .content {
   width: 75%;
 }
@@ -100,4 +105,16 @@ footer {
 footer a {
   text-decoration: none;
   color: gray;
+}
+
+footer p {
+    padding: 10px;
+}
+
+footer img {
+  width: 1.8rem;
+  color: white;
+  margin: -14px 0 -6px;
+  background-color: gray;
+  border-radius: 50%;
 }
