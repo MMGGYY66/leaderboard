@@ -40,6 +40,7 @@ The leaderboard website displays scores submitted by different players. It also 
   <ul>
     <li>HTML</li>
     <li>CSS</li>
+    <li>Bootstrap 5</li>
     <li>Javascript</li>
     <li>Webpack</li>
     <li>Linters (Lighthouse, Webhint, Stylelint, Eslint)</li>
@@ -60,8 +61,12 @@ The leaderboard website displays scores submitted by different players. It also 
     <li><a href="https://html.com/">Html</a></li>
   </ul>
   <ul>
-    <li><a href="hhttps://www.w3schools.com/css/">CSS</a></li>
+    <li><a href="hhttps://www.w3schools.com/css">CSS</a></li>
   </ul>
+    <ul>
+    <li><a href="https://getbootstrap.com">Bootstrap 5</a></li>
+  </ul>
+
 </details>
 
 <details>
@@ -80,21 +85,21 @@ The leaderboard website displays scores submitted by different players. It also 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- []()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👁 Presentation <a name="presentation"></a>
 
-- [Loom presentation Link]()
+- []()
 
 ## Deploy my website with github pages"
 
-[link to leaderboard:]()
+[]()
 
 ## - Loom video link
 
-[Loom walking through for my-awesome-books:]()
+[]()
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -114,15 +119,7 @@ npm init -y
 
 - npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
 
-or latest version:
-
-- npm install --save-dev stylelint stylelint-scss stylelint-config-standard stylelint-csstree-validator
-
 - npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
-
-or latest version:
-
-- npm install --save-dev eslint  eslint-config-airbnb-base  eslint-plugin-import  babel-eslint
 
 ## Requirements
 
@@ -133,6 +130,10 @@ Clone the repository to get start with project, then make sure to install depend
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Run tests
+Check for the tests when you generate a pull request and fix the errors if any.
+For stylelint error run:
+<code>sudo npx stylelint "\*_/_.{css,scss}" --fix</code>
+and it will the fix style issues automatically.
 
 - to test and check the html file/s is error-free run:
 npx hint .
@@ -153,11 +154,6 @@ npx eslint . --fix
 
 ### Deployment
 
-Check for the tests when you generate a pull request and fix the errors if any.
-For stylelint error run:
-<code>sudo npx stylelint "\*_/_.{css,scss}" --fix</code>
-and it will the fix style issues automatically.
-
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
@@ -173,8 +169,8 @@ and it will the fix style issues automatically.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] Add local storage to save todos
-- [ ] Add functionality to add and remove todos
+- [ ] Project 2: send and receive data from API.
+- [ ] Project 3: final touches.
 
   <!-- CONTRIBUTING -->
 
