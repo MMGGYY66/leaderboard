@@ -1,12 +1,4 @@
 body {
-  background: #000;
-  color: #fff;
-}
-
-.header-icon {
-  background-color: #000;
-  width: 160px;
-  color: #000;
 }
 
 .content {
@@ -14,15 +6,11 @@ body {
 }
 
 .left {
-  background-color: yellow;
-  color: black;
-  border-radius: 24px 0 0 24px;
+  border: 2px solid black;
 }
 
 .right {
-  background-color: #05eda4;
-  color: black;
-  border-radius: 0 24px 24px 0;
+    border: 2px solid black;
 }
 
 .recent {
@@ -60,15 +48,6 @@ body {
   background-color: #fff;
 }
 
-.scores-row .scores:nth-child(even):hover {
-  background-color: #05eda4;
-}
-
-.scores-row .scores:nth-child(odd):hover {
-  background-color: #f00;
-  color: white;
-}
-
 footer p {
   padding: 10px;
 }
@@ -87,7 +66,7 @@ footer p {
 }
 
 .form input {
-  width: 62vh;
+  width: 100%;
   font-size: 24px;
   padding: 12px;
   border-radius: 12px;
@@ -97,6 +76,7 @@ form button {
   align-self: end;
   font-size: 34px;
   font-weight: 700;
+  margin-right: 2px;
 }
 
 footer {
@@ -113,9 +93,9 @@ footer a {
 }
 
 footer img {
-  width: 1.8rem;
+  width: 1.2rem;
   color: white;
-  margin: -14px 0 -6px;
-  background-color: gray;
+  margin: -12px 3px -6px;
+  background-color: white;
   border-radius: 50%;
 }

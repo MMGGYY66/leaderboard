@@ -1,14 +1,6 @@
 // Leaderboard APP
 import './styles/main.css'
-import leaderboard from './images/leaderboard1.png'
 import Github from './images/github.svg'
-
-const loadLeaderHead = () => {
-  const leaderHead = document.getElementById('leader');
-  leaderHead.src = leaderboard;
-  leaderHead.alt = 'leaderboard';
-  leaderHead.setAttribute('class', 'header-icon');
-};
 
 const loadGithubIcon = () => {
   const github = document.getElementById('github');
@@ -19,6 +11,5 @@ const loadGithubIcon = () => {
 
 
 window.onload = () => {
-  loadLeaderHead();
   loadGithubIcon();
 };
