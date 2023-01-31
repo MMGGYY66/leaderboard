@@ -212,6 +212,6 @@ I would like to thank Microverse for the information provided to build this proj
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/microverseinc/readme-template/blob/master/MIT.md) licensed.
+This project is [MIT](https://github.com/MMGGYY66/readme-template/blob/master/MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
