@@ -43,6 +43,6 @@
     "webpack-dev-server": "^4.11.1"
   },
   "dependencies": {
-    "lodash": "^4.17.21"
+    "@babel/polyfill": "^7.12.1"  
   }
 }
