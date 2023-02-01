@@ -34,14 +34,6 @@
   align-items: center;
 }
 
-.scores-row .scores p:nth-child(even) {
-  background-color: #c6c6c6;
-}
-
-.scores-row .scores p:nth-child(odd) {
-  background-color: #fff;
-}
-
 footer p {
   padding: 10px;
 }
@@ -51,6 +43,14 @@ footer p {
   font-weight: 600;
   padding: 12px;
   border-radius: 12px;
+}
+
+.scores-row .scores p:nth-child(even) {
+  background-color: #c6c6c6;
+}
+
+.scores-row .scores p:nth-child(odd) {
+  background-color: #fff;
 }
 
 .form {
