@@ -95,7 +95,7 @@ The leaderboard website displays scores submitted by different players. It also 
 
 ## Deploy my website with github pages"
 
-[leaderboard]("https://mmggyy66.github.io/leaderboard/")
+##[leaderboard](https://mmggyy66.github.io/leaderboard/)
 
 ## - Loom video link
 
