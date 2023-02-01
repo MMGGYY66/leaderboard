@@ -1,6 +1,8 @@
 // Leaderboard APP
 import Github from './images/github.svg';
 import Leaderboard from './modules/leaderboard.js';
+import leaderboardImg from './images/leaderboard1.png';
+
 import UI from './modules/ui.js';
 import './styles/main.css';
 
@@ -41,7 +43,15 @@ function loadGithubIcon() {
   github.setAttribute('class', 'github-icon');
 }
 
+const loadLeaderHead = () => {
+  const leaderHead = document.getElementById('leader');
+  leaderHead.src = leaderboardImg;
+  leaderHead.alt = 'leaderboard';
+  leaderHead.setAttribute('class', 'header-icon');
+};
+
 window.onload = () => {
+  loadLeaderHead();
   loadGithubIcon();
 };
 
