@@ -3,7 +3,7 @@ class Leaderboard {
     this.url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/';
   }
 
-  async startGame(gameName) {
+  startGame = async (gameName) => {
     const responseStart = await fetch(this.url, {
       method: 'POST',
       body: JSON.stringify({
@@ -18,7 +18,7 @@ class Leaderboard {
     return responseData;
   }
 
-  async getScores(gameId) {
+  getScores = async (gameId) => {
     const responseStart = await fetch(`${this.url}${gameId}/scores/`);
     const responseData = await responseStart.json();
     return responseData;

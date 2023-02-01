@@ -5,7 +5,7 @@ class UI {
     this.scoreInput = document.querySelector('#score');
   }
 
-  addToUI(arr) {
+  addToUI = (arr) => {
     this.list.innerHTML = '';
     arr.forEach((el) => {
       this.list.innerHTML += `
@@ -14,7 +14,7 @@ class UI {
     });
   }
 
-  cleanInputs() {
+  cleanInputs = () => {
     this.nameInput.value = '';
     this.scoreInput.value = '';
   }
