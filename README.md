@@ -85,7 +85,7 @@ The leaderboard website displays scores submitted by different players. It also 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- []()
+- [leaderboard](https://mmggyy66.github.io/leaderboard/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -95,7 +95,7 @@ The leaderboard website displays scores submitted by different players. It also 
 
 ## Deploy my website with github pages"
 
-[]()
+[leaderboard]("https://mmggyy66.github.io/leaderboard/")
 
 ## - Loom video link
 
