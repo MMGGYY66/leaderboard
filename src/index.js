@@ -30,12 +30,6 @@ const getScores = () => {
 };
 
 const postScore = (e) => {
-  const feedback = document.querySelector('.feedback');
-
-  if (nameInput.value === '' || scoreInput.value === '') {
-    feedback.innerText = 'Please write down the required fields.';
-  }
-
   leaderboard.postScore(gameId, nameInput.value, scoreInput.value);
   ui.cleanInputs();
   e.preventDefault();

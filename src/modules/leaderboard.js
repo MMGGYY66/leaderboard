@@ -25,11 +25,6 @@ class Leaderboard {
   }
 
   async postScore(gameId, name, score) {
-    const feedback = document.querySelector('.feedback');
-
-    if (name === '' || score === '') {
-      feedback.innerText = 'Please write down the required fields.';
-    }
     const responseStart = await fetch(`${this.url}${gameId}/scores/`, {
       method: 'POST',
       body: JSON.stringify({
