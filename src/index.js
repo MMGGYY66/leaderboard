@@ -17,7 +17,7 @@ const ui = new UI();
 let gameId;
 const startGame = () => {
   leaderboard
-    .startGame('Term Project')
+    .startGame('chess')
     .then((response) => response.result.split(' '))
     .then((res) => {
       [gameId] = [res[3]];
