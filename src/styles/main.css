@@ -11,6 +11,8 @@ body {
 
 .content {
   width: 75%;
+  overflow: scroll;
+  max-height: 420px;
 }
 
 .left {
