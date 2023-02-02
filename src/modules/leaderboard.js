@@ -28,7 +28,7 @@ class Leaderboard {
     const feedback = document.querySelector('.feedback');
 
     if (name === '' || score === '') {
-      feedback.innerHTML = 'Please write down the required fields.';
+      feedback.innerText = 'Please write down the required fields.';
     }
     const responseStart = await fetch(`${this.url}${gameId}/scores/`, {
       method: 'POST',

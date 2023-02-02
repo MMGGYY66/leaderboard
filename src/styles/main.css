@@ -106,6 +106,12 @@ form button {
   margin-right: 2px;
 }
 
+.feedback{
+background-color: red;
+color: white;
+width: 60%;
+}
+
 footer {
   border-top: 2px solid gray;
   box-sizing: border-box;
