@@ -12,7 +12,7 @@ body {
 .content {
   width: 75%;
   overflow: scroll;
-  max-height: 420px;
+  max-height: 400px;
 }
 
 .left {
