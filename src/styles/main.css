@@ -11,13 +11,15 @@ body {
 
 .content {
   width: 75%;
-  overflow: scroll;
   max-height: 400px;
 }
 
 .left {
   background-color: yellow;
   color: black;
+    overflow: scroll;
+      max-height: 400px;
+
   border-radius: 24px 0 0 24px;
 }
 
